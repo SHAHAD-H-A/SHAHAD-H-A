@@ -1,46 +1,30 @@
-# GitHub Action for generating a contribution graph with a snake eating your contributions.
-# GitHub Action для создания графика вкладов со змеей, пожирающей ваши взносы.
-
 name: Generate Snake
 
-# Controls when the action will run. This action runs every 6 hours.
-# Управляет запуском действия. Это действие выполняется каждые 6 часов.
 on:
   schedule:
-      # every 6 hours
     - cron: "0 */6 * * *"
-
-# This command allows us to run the Action automatically from the Actions tab.
-# Эта команда позволяет нам автоматически запускать действие с вкладки «Действия».
   workflow_dispatch:
 
-# The sequence of runs in this workflow:
-# Последовательность прогонов в этом рабочем процессе:
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
-      - uses: actions/checkout@v3
-
-    # Generates the snake
-      - uses: Platane/snk@master
+      - name: Generate the snake
+        uses: Platane/snk@master
         id: snake-gif
         with:
           github_user_name: SHAHAD-H-A
-          # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-     # show the status of the build. Makes it easier for debugging (if there's any issues).
-      - run: git status
+      - name: Save output paths
+        run: |
+          echo "gif_path=${{ steps.snake-gif.outputs.gif_path }}" >> $GITHUB_ENV
+          echo "svg_path=${{ steps.snake-gif.outputs.svg_path }}" >> $GITHUB_ENV
 
-      # Push the changes
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
@@ -48,10 +32,10 @@ jobs:
           branch: master
           force: true
 
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3.7.0
         with:
-          # the output branch we mentioned above
-          target_branch: output
           build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+
