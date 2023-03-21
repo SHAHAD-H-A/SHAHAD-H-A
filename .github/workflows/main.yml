@@ -33,7 +33,7 @@ jobs:
           force: true
 
       - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v3.7.0
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           build_dir: dist
           token: ${{ secrets.GITHUB_TOKEN }}
