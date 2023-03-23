@@ -1,9 +1,9 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=7FAECA&size=35&center=true&vCenter=true&width=1000&lines=Hi,+I'm+Shahad;I'm+an+Enthusiastic+Mobile+Developer;Be+Welcome!+ツ)
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shahad-h-a&label=Profile%20views&color=7FAECA&style=flat" alt="shahad-h-a" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=shahad-999&label=Profile%20views&color=7FAECA&style=flat" alt="shahad-999" /> </p>
 
-![](https://github-trophies.vercel.app/?username=shahad-h-a)
+![](https://github-trophies.vercel.app/?username=shahad-999)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shahad-h-a)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shahad-999)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -14,6 +14,3 @@
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
 
-![snake gif](https://github.com/SHAHAD-H-A/SHAHAD-H-A/blob/output/github-contribution-grid-snake.gif)
-
-![Snake animation](https://github.com/SHAHAD-H-A/SHAHAD-H-A/blob/output/github-contribution-grid-snake.svg)
